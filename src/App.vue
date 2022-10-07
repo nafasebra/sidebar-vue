@@ -18,6 +18,7 @@ export default {
     <button @click="setShow" class="button_icon" :class="showSidebar && 'active'">
       <span></span>
       <span></span>
+      <span></span>
     </button>
   </div>
 </template>
@@ -39,12 +40,13 @@ export default {
     outline: none;
     background: transparent;
     cursor: pointer;
+    overflow: hidden;
   }
   .button_icon span {
     display: block;
     background-color: black;
     width: 100px;
-    height: 3px;
+    height: 4px;
   }
   .button_icon span:first-child {
     transform: translateY(-25px);
@@ -53,9 +55,13 @@ export default {
     transform: translateY(25px);
   }
   .button_icon.active span:first-child {
-    transform: rotate(-45deg)
+    transform: rotate(-45deg) translateY(5.5px)
+  }
+  .button_icon.active span:nth-child(2) {
+    transform: translateX(100%);
+    opacity: 0;
   }
   .button_icon.active span:last-child {
-    transform: rotate(45deg)
+    transform: rotate(45deg) translateY(-5.5px)
   }
 </style>
