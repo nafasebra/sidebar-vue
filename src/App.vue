@@ -21,6 +21,7 @@ export default {
       <span></span>
     </button>
   </div>
+  <Sidebar :opened="showSidebar" />
 </template>
 
 <style scoped>
