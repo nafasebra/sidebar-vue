@@ -1,7 +1,11 @@
-# Vue 3 + Vite
+# Sidebar with vuejs
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+I was created a simple project with vuejs framework in first time.
 
-## Recommended IDE Setup
+### What is project?
+The project just about to open and close sidebar.
+and just fun :)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+### Technologies
+- First: The VueJS
+- Bulma, a CSS framework 
