@@ -8,6 +8,6 @@ and just fun :)
 
 ### Technologies
 - First: The VueJS
-- Bulma, a CSS framework 
+- pure CSS
 - vite
 
