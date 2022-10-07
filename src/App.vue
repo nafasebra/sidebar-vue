@@ -4,7 +4,7 @@
 
 <template>
   <div class="items_center">
-    <button class="button_icon">
+    <button class="button button_icon">
       <span></span>
       <span></span>
     </button>
@@ -24,5 +24,20 @@
   }
   .button_icon span {
     display: block;
+    background-color: black;
+    width: 150px;
+    height: 3px;
+  }
+  .button_icon span:first-child {
+    transform: translateY(-50px);
+  }
+  .button_icon span:first-child {
+    transform: translateY(50px);
+  }
+  .button_icon.active span:first-child {
+    transform: rotate(-45deg)
+  }
+  .button_icon.active span:first-child {
+    transform: rotate(45deg)
   }
 </style>
